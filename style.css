@@ -17,6 +17,11 @@ body {
   background-color: var(--accent-color) !important;
   border-color: var(--accent-color) !important;
 }
+.btn-secondary {
+  background-color: white !important;
+  border-color: white !important;
+  color: black !important;
+}
 .btn-xs {
   font-size: 0.875rem !important;
   padding: 2.5px 5px !important;
@@ -175,4 +180,21 @@ pre .price {
 .card-block ul {
   margin: 0;
   padding: 0 0 0 1.5rem;
+}
+
+/* About us teaser */
+.descriptor-text {
+  background: var(--accent-color) linear-gradient(#7857d1, #503992);
+  color: #fff;
+  min-height: 19em;
+  display: block;
+  padding: 3rem 3.6rem;
+}
+.descriptor-text p {
+  text-align: center;
+}
+
+.descriptor-text .btn {
+  display: block;
+  margin: 1.8rem auto;
 }
