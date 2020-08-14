@@ -198,3 +198,41 @@ pre .price {
   display: block;
   margin: 1.8rem auto;
 }
+
+/* Benefits section  */
+
+.benefits {
+  margin: 1rem 0;
+}
+.facilities {
+  margin-bottom: 2.5rem;
+}
+.coaching {
+  margin-top: 2.5rem;
+}
+
+/* CEO Section  */
+.ceo-message {
+  background-color: #000;
+  position: relative;
+}
+.markDinesh {
+  position: relative;
+  display: block;
+  margin-left: -5rem;
+}
+.blockquote {
+  position: absolute;
+  top: 20%;
+  right: 3.6rem;
+}
+.blockquote p {
+  color: #fff;
+  font-size: 0.7rem;
+  max-width: 11.8rem;
+}
+.ceo-cta {
+  position: absolute;
+  bottom: 27%;
+  right: 3.6rem;
+}
