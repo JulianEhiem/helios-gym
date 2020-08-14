@@ -6,7 +6,7 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   overflow-x: hidden;
   box-sizing: border-box;
 }
@@ -33,6 +33,12 @@ body {
   font-size: 1.75rem !important;
   padding: 9px 15px !important;
 }
+.container {
+  padding: 1.3rem 3.6rem !important;
+}
+.col {
+  padding: 0 !important;
+}
 
 /* Navbar Styling */
 nav {
@@ -48,7 +54,6 @@ nav {
 
 /* Hero-Styling */
 .hero-video {
-  background-color: red;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -93,4 +98,81 @@ video {
 }
 .btn-accent {
   background-color: var(--accent-color);
+}
+
+/* Membership Section  */
+.membership {
+  padding: 1.3rem 3.6rem;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  display: block;
+  margin: 1.9rem auto;
+}
+.card {
+  margin: 2.8rem 0 !important;
+  position: relative;
+  border: none;
+  border-radius: 0.3rem !important;
+  box-shadow: 0.2px 0.3px 9px rgba(0, 0, 0, 0.2);
+}
+.card-split-left {
+  width: 78%;
+  display: block;
+  position: relative;
+  border: none;
+  padding: 1rem 0 1rem 1.3rem;
+}
+.card-split-right {
+  display: flex;
+  align-items: center;
+  border: none;
+  justify-content: center;
+  background-color: var(--accent-color);
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 78%;
+}
+.card-split-right p {
+  display: flex;
+  position: relative;
+  text-align: center;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-title {
+  font-size: 1.6rem !important;
+  font-weight: 900 !important;
+}
+.card-subtitle {
+  font-size: 0.8rem !important;
+  font-weight: 400 !important;
+}
+pre {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.6rem !important;
+  font-weight: 900 !important;
+}
+pre .frequency {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+}
+pre .price {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+.card-block ul {
+  margin: 0;
+  padding: 0 0 0 1.5rem;
 }
