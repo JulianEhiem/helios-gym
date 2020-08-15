@@ -1,6 +1,7 @@
 /* Global */
 :root {
   --accent-color: #7857d1;
+  --responsive-width: calc(100vw - 7.3rem);
 }
 html {
   font-size: 10px;
@@ -323,4 +324,57 @@ pre .price {
   color: #fff;
   display: block;
   margin: auto;
+}
+
+/* ====================== About Page ===================== */
+.about-us {
+  padding: 1.6rem 3.6rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  position: relative;
+}
+.section-title {
+  text-align: center;
+}
+.image-framing {
+  position: relative;
+  width: 100%;
+  height: calc((100vw - 7.3rem) * 0.83);
+  background-color: #f5f5f5;
+}
+.about-image-frame {
+  background-color: var(--accent-color);
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 10%;
+  right: 10%;
+  left: 0;
+  z-index: 1;
+}
+.about-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.about-text {
+  border: none;
+  margin: 1.6rem auto 3rem;
+  padding: 1.6rem;
+  line-height: 1.4rem;
+  box-shadow: 0.2px 0.3px 9px rgba(0, 0, 0, 0.2);
+  min-width: 242px;
+  height: 220px;
+  max-width: 200px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+.about-cta {
+  margin: 1.5rem auto 3.6rem auto;
+  align-content: center;
+  width: max-content;
 }
