@@ -253,3 +253,74 @@ pre .price {
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
+
+/* Footer Section  */
+.footer {
+  display: grid;
+  background-color: black;
+  padding: 1rem 3.6rem;
+  grid-template-columns: 1fr 1.25fr 1fr;
+  grid-template-rows: 1.1fr 0.8fr 1fr 0.5fr;
+  grid-template-areas:
+    "footer-logo   sub-menu       socials"
+    " ...           form-group        ...."
+    "...           address        ...."
+    "...           copyright      ....";
+}
+.footer-logo {
+  grid-area: footer-logo;
+  display: block;
+  margin: auto;
+}
+.sub-menu {
+  grid-area: sub-menu;
+  color: #fff;
+  display: block;
+  list-style: none;
+  margin: auto !important;
+}
+.sub-menu ul {
+  list-style: none;
+  margin: auto !important;
+  padding: 0.75rem;
+  line-height: 2rem;
+}
+.socials {
+  grid-area: socials;
+  color: #fff;
+  display: block;
+  margin: auto;
+  line-height: 2rem;
+}
+.form-group {
+  grid-area: form-group;
+  color: #fff;
+  display: block;
+  margin: auto;
+  padding: 0;
+}
+.form-group label {
+  display: block;
+  width: 80%;
+  margin: 0.2rem auto;
+  text-align: center;
+  align-items: center;
+}
+.submit-btn {
+  display: inline-block;
+  margin: 0.2rem auto;
+  align-items: center;
+  width: 100%;
+}
+.address {
+  grid-area: address;
+  color: #fff;
+  display: block;
+  margin: auto;
+}
+.copyright {
+  grid-area: copyright;
+  color: #fff;
+  display: block;
+  margin: auto;
+}
