@@ -45,6 +45,20 @@ body {
 .col {
   padding: 0 !important;
 }
+.grey-bg {
+  background-color: #f5f5f5 !important;
+}
+.d-grey-bg {
+  background-color: #e8e8e8 !important;
+}
+.div-shadow {
+  box-shadow: 0.2px 0.3px 9px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.btn-div {
+  width: fit-content;
+  margin: 1.6rem auto 3.6rem;
+}
 
 /* Navbar Styling */
 nav {
@@ -377,4 +391,20 @@ pre .price {
   margin: 1.5rem auto 3.6rem auto;
   align-content: center;
   width: max-content;
+}
+
+/* ====================== Contact Page ===================== */
+.contact-form {
+  padding: 3rem 3.7rem 1rem;
+  background-color: #fff;
+  margin-bottom: 4rem;
+}
+label {
+  color: #000;
+  text-align: left !important;
+  width: 100% !important;
+  font-weight: 600;
+}
+.form-text {
+  font-size: 0.7rem !important;
 }

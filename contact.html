@@ -26,8 +26,31 @@
             </button>
         </nav>
     </header>
-    <section class="contact-us">
+    <section class="contact-us grey-bg container">
         <section-heading class="section-title">Contact Us</section-heading>
+        <form class="div-shadow contact-form">
+            <div class="form-group">
+                <label for="nameField">Name</label>
+                <input type="text" class="form-control d-grey-bg" id="nameField">
+            </div>
+            <div class="form-group">
+                <label for="emailField">Email</label>
+                <input type="email" class="form-control d-grey-bg" id="emailField" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="sucjectField">Subject</label>
+                <input type="password" class="form-control d-grey-bg" id="esubjectField">
+            </div>
+            <div class="form-group">
+                <label for="messageField">Message</label>
+                <textarea class="form-control d-grey-bg" id="messageField" rows="5"></textarea>
+            </div>
+            <div class="btn-div">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
 
 
 
