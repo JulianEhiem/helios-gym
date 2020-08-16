@@ -395,9 +395,9 @@ pre .price {
 
 /* ====================== Contact Page ===================== */
 .contact-form {
-  padding: 3rem 3.7rem 1rem;
+  padding: 3rem 3.7rem 0.5rem;
   background-color: #fff;
-  margin-bottom: 4rem;
+  margin: 4rem 0;
 }
 label {
   color: #000;
@@ -407,4 +407,29 @@ label {
 }
 .form-text {
   font-size: 0.7rem !important;
+}
+
+/* ====================== Register Page ===================== */
+.form-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.sign-in {
+  margin: 2.5rem 0 3rem;
+}
+.sign-in h6 {
+  width: fit-content;
+  margin: 1rem auto;
+}
+.sign-in .btn {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+hr {
+  margin: none !important;
+  width: 60%;
+}
+.name-label {
+  margin-top: 2rem !important;
 }
