@@ -433,3 +433,12 @@ hr {
 .name-label {
   margin-top: 2rem !important;
 }
+
+/* ====================== Register Page ===================== */
+
+.terms .section-title {
+  font-size: 1.6rem;
+}
+.terms-body {
+  font-size: 0.7rem;
+}
