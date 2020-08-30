@@ -39,6 +39,10 @@ body {
   font-size: 1.75rem !important;
   padding: 9px 15px !important;
 }
+.btn-xl {
+  font-size: 2rem !important;
+  padding: 11px 17px !important;
+}
 .container {
   padding: 1.3rem 3.6rem !important;
 }
@@ -59,30 +63,69 @@ body {
   width: fit-content;
   margin: 1.6rem auto 3.6rem;
 }
-
+@media only screen and (min-device-width: 576px) {
+}
+@media only screen and (min-device-width: 768px) {
+}
+@media only screen and (min-device-width: 992px) {
+}
+@media only screen and (min-device-width: 1200px) {
+}
+/* =================================================================== */
 /* Navbar Styling */
+/* =================================================================== */
 nav {
-  padding-left: 3.6rem !important;
-  padding-right: 3.6rem !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
 }
 .navbar {
   background-color: #000;
 }
 .navbar-toggler {
-  background-color: white;
+  background-color: transparent;
 }
-
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.hamburger {
+  width: 20px;
+  height: 20px;
+}
+@media only screen and (min-device-width: 576px) {
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .hamburger {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
+/* =================================================================== */
 /* Hero-Styling */
+/* =================================================================== */
 .hero-video {
   overflow: hidden;
   position: relative;
   margin: 0;
   padding: 0;
 }
+
 video {
   width: 100%;
   height: 60vh;
-  transform: scale(2, 2);
+  transform: scale(2.5, 2.5);
 }
 .video-overlay {
   position: absolute;
@@ -97,12 +140,12 @@ video {
 .video-text-content {
   position: absolute;
   z-index: 3;
-  top: 30%;
-  padding-left: 3.6rem;
+  top: 25%;
+  margin-left: 10%;
 }
 .video-text-content h1 {
   text-transform: uppercase;
-  font-size: 4.5rem;
+  font-size: 5.9rem;
   font-weight: 600;
   color: #fff;
 }
@@ -112,15 +155,56 @@ video {
 }
 .hero-cta {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   z-index: 3;
-  padding-left: 3.6rem;
+  margin-left: 10%;
+}
+
+.join-btn {
+  margin-right: 1rem;
 }
 .btn-accent {
   background-color: var(--accent-color);
 }
+@media only screen and (min-device-width: 576px) {
+  video {
+    transform: scale(2, 2);
+  }
+  .video-text-content {
+    top: 30%;
+    margin-left: 15%;
+  }
+  .video-text-content h1 {
+    font-size: 7.7rem;
+  }
+  .video-text-content p {
+    margin-top: 1rem;
+    font-size: 1.35rem;
+  }
+  .hero-cta {
+    position: absolute;
+    bottom: 25%;
+    z-index: 3;
+    margin-left: 15%;
+  }
 
+  .join-btn {
+    margin-right: 1rem;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
+/* =================================================================== */
 /* Membership Section  */
+/* =================================================================== */
 .membership {
   padding: 1.3rem 3.6rem;
 }
@@ -196,8 +280,98 @@ pre .price {
   margin: 0;
   padding: 0 0 0 1.5rem;
 }
+@media only screen and (min-device-width: 576px) {
+  .membership {
+    padding: 1.3rem 0 !important;
+    /* margin: 0 10rem !important; */
+  }
 
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-title {
+    font-weight: 600;
+    font-size: 2.5rem;
+    display: block;
+    margin: 1.9rem auto;
+  }
+  .card {
+    margin: 2.8rem 0.5rem !important;
+    min-width: 175px;
+    position: relative;
+    display: flex;
+    border: none;
+    border-radius: 0.3rem !important;
+    box-shadow: 0.2px 0.3px 9px rgba(0, 0, 0, 0.2);
+    flex: 1 1 0.1rem;
+  }
+  .card-split-left {
+    width: 100%;
+    display: block;
+    position: relative;
+    border: none;
+    padding: 1rem 0 1rem 1.3rem;
+  }
+  .card-split-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    left: 10%;
+    border-radius: 0;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .card-split-right p {
+    margin-bottom: 0;
+  }
+
+  .card-title {
+    font-size: 1.6rem !important;
+    font-weight: 900 !important;
+  }
+  .card-subtitle {
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
+  }
+  pre {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1.6rem !important;
+    font-weight: 900 !important;
+  }
+  pre .frequency {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+  }
+  pre .price {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+  }
+  .card-block ul {
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
+/* =================================================================== */
 /* About us teaser */
+/* =================================================================== */
 .descriptor-text {
   background: var(--accent-color) linear-gradient(#7857d1, #503992);
   color: #fff;
@@ -213,9 +387,24 @@ pre .price {
   display: block;
   margin: 1.8rem auto;
 }
-
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
+/* =================================================================== */
 /* Benefits section  */
-
+/* =================================================================== */
 .benefits {
   margin: 1rem 0;
 }
@@ -225,8 +414,24 @@ pre .price {
 .coaching {
   margin-top: 2.5rem;
 }
-
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
+/* =================================================================== */
 /* CEO Section  */
+/* =================================================================== */
 .ceo-message {
   background-color: #000;
   position: relative;
@@ -251,8 +456,24 @@ pre .price {
   bottom: 27%;
   right: 3.6rem;
 }
-
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
+/* =================================================================== */
 /* Trainers Section  */
+/* =================================================================== */
 .trainer-block {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -268,8 +489,24 @@ pre .price {
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
-
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
+/* =================================================================== */
 /* Footer Section  */
+/* =================================================================== */
 .footer {
   display: grid;
   background-color: black;
@@ -339,6 +576,21 @@ pre .price {
   display: block;
   margin: auto;
 }
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
 
 /* ====================== About Page ===================== */
 .about-us {
@@ -392,6 +644,21 @@ pre .price {
   align-content: center;
   width: max-content;
 }
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
 
 /* ====================== Contact Page ===================== */
 .contact-form {
@@ -407,6 +674,21 @@ label {
 }
 .form-text {
   font-size: 0.7rem !important;
+}
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
 }
 
 /* ====================== Register Page ===================== */
@@ -433,8 +715,23 @@ hr {
 .name-label {
   margin-top: 2rem !important;
 }
+@media only screen and (min-device-width: 569px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: red;
+  }
+}
+@media only screen and (min-device-width: 1601px) {
+  h1 {
+    color: red;
+  }
+}
 
-/* ====================== Register Page ===================== */
+/* ====================== Terms Page ===================== */
 
 .terms .section-title {
   font-size: 1.6rem;
