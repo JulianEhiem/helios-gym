@@ -167,8 +167,16 @@ video {
   background-color: var(--accent-color);
 }
 @media only screen and (min-device-width: 576px) {
+  .hero-video {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
   video {
-    transform: scale(2, 2);
+    width: 100%;
+    height: 60vh;
+    transform: scale(3, 3);
   }
   .video-text-content {
     top: 30%;
@@ -188,18 +196,28 @@ video {
     margin-left: 15%;
   }
 
-  .join-btn {
-    margin-right: 1rem;
+  .hero-cta {
+    bottom: 25%;
   }
 }
 @media only screen and (min-device-width: 1025px) {
-  h1 {
-    color: red;
+  .video-text-content h1 {
+    color: red !important;
+    font-size: 12rem;
+  }
+  .video-text-content p {
+    margin-top: 0.5rem;
+    font-size: 1.75rem;
   }
 }
 @media only screen and (min-device-width: 1601px) {
-  h1 {
-    color: red;
+  .video-text-content h1 {
+    color: green !important;
+    font-size: 15rem !important;
+  }
+
+  .hero-cta {
+    bottom: 15%;
   }
 }
 /* =================================================================== */
@@ -294,7 +312,7 @@ pre .price {
 
   .section-title {
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 5vw;
     display: block;
     margin: 1.9rem auto;
   }
@@ -341,32 +359,124 @@ pre .price {
   }
   pre {
     font-family: "Montserrat", sans-serif !important;
-    font-size: 1.6rem !important;
+    /* font-size: 1.6rem !important; */
+    font-size: 2vw !important;
     font-weight: 900 !important;
   }
   pre .frequency {
     font-family: "Montserrat", sans-serif !important;
-    font-size: 0.7rem !important;
+    /* font-size: 0.7rem !important; */
+    font-size: 1.1vw !important;
     font-weight: 600 !important;
   }
   pre .price {
     font-family: "Montserrat", sans-serif !important;
-    font-size: 1.2rem !important;
+    /* font-size: 1.2rem !important; */
+    font-size: 1.4vw !important;
     font-weight: 600 !important;
   }
   .card-block ul {
     margin: 0;
     padding: 0 0 0 1.5rem;
   }
+  .card-block ul li {
+    font-size: 1.1vw !important;
+  }
 }
 @media only screen and (min-device-width: 1025px) {
-  h1 {
-    color: red;
+  .membership {
+    padding: 1.3rem 0 !important;
+    /* margin: 0 10rem !important; */
+  }
+
+  .section-title {
+    font-weight: 600;
+    font-size: 3vw;
+    display: block;
+    margin: 1.9rem auto;
+  }
+
+  .card-title {
+    font-size: 1.6rem !important;
+    font-weight: 900 !important;
+  }
+  .card-subtitle {
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
+  }
+  pre {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 2.75rem !important;
+    /* font-size: 2vw !important; */
+    font-weight: 900 !important;
+  }
+  pre .frequency {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1.7rem !important;
+    /* font-size: 1.1vw !important; */
+    font-weight: 600 !important;
+  }
+  pre .price {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1.8rem !important;
+    /* font-size: 1.4vw !important; */
+    font-weight: 600 !important;
+  }
+  .card-block ul {
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+  }
+  .card-block ul li {
+    font-size: 1.7rem !important;
+    /* font-size: 1.1vw !important; */
   }
 }
 @media only screen and (min-device-width: 1601px) {
-  h1 {
-    color: red;
+  .membership {
+    padding: 1.3rem 0 !important;
+    /* margin: 0 10rem !important; */
+  }
+
+  .section-title {
+    font-weight: 600;
+    font-size: 5rem;
+    display: block;
+    margin: 1.9rem auto;
+  }
+
+  .card-title {
+    font-size: 1.6rem !important;
+    font-weight: 900 !important;
+  }
+  .card-subtitle {
+    font-size: 0.8rem !important;
+    font-weight: 400 !important;
+  }
+  pre {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 2.75rem !important;
+    /* font-size: 2vw !important; */
+    font-weight: 900 !important;
+  }
+  pre .frequency {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1.7rem !important;
+    /* font-size: 1.1vw !important; */
+    font-weight: 600 !important;
+  }
+  pre .price {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1.8rem !important;
+    /* font-size: 1.4vw !important; */
+    font-weight: 600 !important;
+  }
+  .card-block ul {
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+  }
+  .card-block ul li {
+    font-size: 1.7rem !important;
+    /* font-size: 1.1vw !important; */
   }
 }
 /* =================================================================== */
