@@ -191,16 +191,21 @@ video {
   }
   .hero-cta {
     position: absolute;
-    bottom: 7%;
+    bottom: 25%;
     z-index: 3;
     margin-left: 15%;
   }
 
   .hero-cta {
-    bottom: 7%;
+    bottom: 25%;
   }
 }
 @media only screen and (min-device-width: 1025px) {
+  video {
+    width: 100%;
+    height: 65vh;
+    transform: scale(2.5, 2.5);
+  }
   .video-text-content h1 {
     font-size: 12rem;
   }
@@ -210,12 +215,17 @@ video {
   }
 }
 @media only screen and (min-device-width: 1601px) {
+  video {
+    width: 100%;
+    height: 70vh;
+    transform: scale(2.5, 2.5);
+  }
   .video-text-content h1 {
     font-size: 15rem !important;
   }
 
   .hero-cta {
-    bottom: 7%;
+    bottom: 25%;
   }
 }
 /* =================================================================== */
