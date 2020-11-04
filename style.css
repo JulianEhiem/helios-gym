@@ -482,6 +482,10 @@ pre .price {
 /* =================================================================== */
 /* About us teaser */
 /* =================================================================== */
+.gym-insight-container {
+  margin: 0;
+}
+
 .descriptor-text {
   background: var(--accent-color) linear-gradient(#7857d1, #503992);
   color: #fff;
@@ -496,31 +500,93 @@ pre .price {
 .descriptor-text .btn {
   display: block;
   margin: 1.8rem auto;
+  width: fit-content;
 }
 @media only screen and (min-device-width: 569px) {
-  h1 {
-    color: red;
+  .gym-insight-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 70rem;
+    align-self: center;
   }
 }
 @media only screen and (min-device-width: 1025px) {
-  h1 {
-    color: red;
+  .gym-insight-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 70rem;
+    align-self: center;
   }
 }
 @media only screen and (min-device-width: 1601px) {
-  h1 {
-    color: red;
-  }
 }
 /* =================================================================== */
 /* Benefits section  */
 /* =================================================================== */
-.benefits {
-  margin: 1rem 0;
+
+.member-benefits {
+  max-width: 700px !important;
+  /* display: flex !important;
+  flex-wrap: wrap !important;
+  flex-flow: column wrap !important;
+  justify-content: center !important; */
 }
+
+.flexy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  max-width: 700px;
+}
+.benefit {
+  position: relative;
+  display: flex;
+  padding: 0;
+  margin: 0.3em 0.3em;
+  transition: all 0.3s ease-in-out;
+  flex-direction: column;
+  min-width: 250px;
+  max-width: 100%;
+  background-color: #000;
+  flex: 1 1 5rem;
+}
+
+.coaching {
+  background: url(/images/coaching-1.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+  height: 250px;
+}
+.accountability {
+  background: url(/images/accountability-2.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+  height: 250px;
+}
+.nutrition {
+  background: url(/images/nutrition-3.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+  height: 250px;
+}
+.facilities {
+  background: url(/images/facilities-4.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+  height: 250px;
+}
+
+/* .benefits {
+  margin: 1rem 0;
+  /* max-width: 500px !important; */
+} */
 .facilities {
   margin-bottom: 2.5rem;
 }
+
 .coaching {
   margin-top: 2.5rem;
 }
@@ -545,6 +611,7 @@ pre .price {
 .ceo-message {
   background-color: #000;
   position: relative;
+  height: 60vh;
 }
 .markDinesh {
   position: relative;
