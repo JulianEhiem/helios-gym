@@ -616,25 +616,25 @@ pre .price {
 }
 
 .coaching {
-  /* background: url("./images/coaching-1.jpg") no-repeat center; */
+  background: url("./img/coaching-1.jpg") no-repeat center;
   background-size: cover;
   content: "";
   height: 250px;
 }
 .accountability {
-  /* background: url("./images/accountability-2.jpg") no-repeat center; */
+  background: url("./img/accountability-2.jpg") no-repeat center;
   background-size: cover;
   content: "";
   height: 250px;
 }
 .nutrition {
-  /* background: url("./images/nutrition-3.jpg") no-repeat center; */
+  background: url("./img/nutrition-3.jpg") no-repeat center;
   background-size: cover;
   content: "";
   height: 250px;
 }
 .facilities {
-  /* background: url("./images/facilities-4.jpg") no-repeat center; */
+  background: url("./img/facilities-4.jpg") no-repeat center;
   background-size: cover;
   content: "";
   height: 250px;
