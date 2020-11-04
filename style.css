@@ -202,7 +202,6 @@ video {
 }
 @media only screen and (min-device-width: 1025px) {
   .video-text-content h1 {
-    color: red !important;
     font-size: 12rem;
   }
   .video-text-content p {
@@ -212,7 +211,6 @@ video {
 }
 @media only screen and (min-device-width: 1601px) {
   .video-text-content h1 {
-    color: green !important;
     font-size: 15rem !important;
   }
 
