@@ -579,10 +579,6 @@ pre .price {
   height: 250px;
 }
 
-/* .benefits {
-  margin: 1rem 0;
-  /* max-width: 500px !important; */
-} */
 .facilities {
   margin-bottom: 2.5rem;
 }
@@ -601,8 +597,12 @@ pre .price {
   }
 }
 @media only screen and (min-device-width: 1601px) {
-  h1 {
-    color: red;
+  .facilities {
+    margin-bottom: 0;
+  }
+
+  .coaching {
+    margin-top: 0;
   }
 }
 /* =================================================================== */
@@ -644,8 +644,39 @@ pre .price {
   }
 }
 @media only screen and (min-device-width: 1601px) {
-  h1 {
-    color: red;
+  .ceo-message {
+    background-color: #000;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .markDinesh {
+    position: relative;
+    display: block;
+    margin-left: 4rem;
+    width: 50%;
+    max-width: 500px;
+  }
+  .blockquote {
+    position: absolute;
+    top: 20%;
+    right: 12rem;
+  }
+  .blockquote p {
+    color: #fff;
+    font-size: 2.7rem;
+    max-width: 40rem;
+  }
+  .blockquote-footer {
+    font-size: 1.6rem !important;
+  }
+  .ceo-cta {
+    position: absolute;
+    bottom: 7%;
+    right: 20%;
+    font-size: 1.75rem !important;
+    padding: 9px 15px !important;
   }
 }
 /* =================================================================== */
