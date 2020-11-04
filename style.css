@@ -191,13 +191,13 @@ video {
   }
   .hero-cta {
     position: absolute;
-    bottom: 25%;
+    bottom: 7%;
     z-index: 3;
     margin-left: 15%;
   }
 
   .hero-cta {
-    bottom: 25%;
+    bottom: 7%;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -215,7 +215,7 @@ video {
   }
 
   .hero-cta {
-    bottom: 15%;
+    bottom: 7%;
   }
 }
 /* =================================================================== */
